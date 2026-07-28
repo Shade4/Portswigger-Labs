@@ -1,5 +1,5 @@
 # **What is Path Traversal?**
-It is also known as directory traversal where a paratmeter is used as a guiding light to access a directory which we wasn't supposed to. So attacker is tricking a web application into accessing files but the application doesn't check much as well about the request which leads to this.
+It is also known as directory traversal where a paratmeter is used as a guiding light to access a directory which we wasn't supposed to. So attacker is tricking a web application into accessing files in this case you are kinda giving instructions to the web application to follow.
 
 ## Let's see this with a real life example
 Imagine you visit a huge library.
