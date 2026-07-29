@@ -122,3 +122,5 @@ Now, this ../ means to step up one level in the directory structure the three co
 In the lab it says: -
 
 ![Lab Overview](Images/LabOverview.png)
+
+So we have to click on a image see the request and then change it in the middle so it will lead to the /passwd directory.
