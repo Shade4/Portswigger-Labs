@@ -1,49 +1,148 @@
-# **What is Path Traversal?**
-It is also known as directory traversal where a paratmeter is used as a guiding light to access a directory which we wasn't supposed to. So attacker is tricking a web application into accessing files in this case you are kinda giving instructions to the web application to follow.
+# Path Traversal
 
-## Let's see this with a real life example
-Imagine you visit a huge library.
+## What is Path Traversal?
+
+**Path Traversal**, also known as **Directory Traversal**, is a web vulnerability that allows an attacker to access files and directories outside the application's intended location.
+
+It occurs when an application uses user-supplied input to build a file path without properly validating or sanitising it. By manipulating this input, an attacker can traverse the server's directory structure and access files that should not be publicly available.
+
+In simple terms, the attacker tricks the web application into reading files it was never intended to expose.
+
+---
+
+# Understanding Path Traversal with a Real-Life Example
+
+Imagine visiting a large library.
 
 You ask the librarian:
 
-**Can I have the book Harry Potter from the Fantasy shelf?**
+> "Can I have the book *Harry Potter* from the Fantasy section?"
 
-The librarian goes to:
-~~~
-Library/Fantasy/HarryPotter.pdf
-~~~
-Everything is fine.
+The librarian retrieves:
 
-Now imagine the librarian doesn't check what you ask for.
+```text
+Library/
+└── Fantasy/
+    └── HarryPotter.pdf
+```
 
-Instead you say:
+Everything works as expected.
 
-**Go back one room... then another... then another... now bring me the manager's confidential salary records.**
+Now imagine the librarian follows every instruction you give without verifying whether you're allowed to access certain areas.
 
-The request becomes:
-~~~
+Instead, you say:
+
+> "Go back one room... then another... then another... now bring me the manager's confidential salary records."
+
+The path becomes:
+
+```text
 ../
 ../
 ../
-Manager/SalaryRecords.pdf
-~~~
-Instead of giving you a fantasy book, the librarian unknowingly gives you confidential files.
+Manager/
+SalaryRecords.pdf
+```
 
-That is exactly what a Path Traversal attack does.
+Instead of retrieving a fantasy book, the librarian unknowingly gives you confidential documents.
 
-And as a technical example with the image attribute and filname parameter it always works very well.
+This is essentially how a **Path Traversal attack** works.
 
-~~~
+---
+
+# Technical Example
+
+Suppose a web application loads images using the following request:
+
+```html
 <img src="/loadImage?filename=218.png">
-~~~
+```
 
-What is it doing? The loadimage URL take the filename parameter and returns the contents of the file but it follows a path like **/var/www/images/218.png** with the help of API it does this in back. Now we can also recreate it with: **../../../etc/passwd** and if the passwd file with the other users credentials exists it will lead us there skipping all other directories that we don't know.
+On the server, the application might construct the file path like this:
 
+```text
+/var/www/images/218.png
+```
 
+The application simply appends the value of the `filename` parameter to the images directory.
 
-Some different path traversals paramerters other than "filename" which was shown in the portswigger lab:-
+If the application does **not** validate the supplied filename, an attacker can modify the request:
 
-~~~
+```text
+../../../etc/passwd
+```
+
+The server then attempts to read:
+
+```text
+/var/www/images/../../../etc/passwd
+```
+
+After resolving the directory traversal sequences (`../`), the operating system interprets the path as:
+
+```text
+/etc/passwd
+```
+
+If access controls are missing, the application returns the contents of the `/etc/passwd` file instead of an image.
+
+---
+
+# Understanding `../`
+
+The sequence
+
+```text
+../
+```
+
+means:
+
+> Move **one directory up** from the current location.
+
+For example:
+
+Current directory:
+
+```text
+/var/www/images/
+```
+
+One level up:
+
+```text
+/var/www/
+```
+
+Two levels up:
+
+```text
+/var/
+```
+
+Three levels up:
+
+```text
+/
+```
+
+So a payload like:
+
+```text
+../../../etc/passwd
+```
+
+moves back to the filesystem root before navigating into the `etc` directory.
+
+---
+
+# Common Parameters That May Be Vulnerable
+
+Although the PortSwigger lab uses the `filename` parameter, developers can use almost any parameter to reference files.
+
+Common examples include:
+
+```text
 file
 filename
 path
@@ -58,7 +157,6 @@ include
 module
 view
 document
-doc
 download
 attachment
 image
@@ -66,14 +164,11 @@ img
 avatar
 icon
 logo
-banner
 css
 style
 js
 script
 theme
-lang
-locale
 config
 settings
 log
@@ -81,56 +176,99 @@ backup
 report
 export
 source
-src
 media
 asset
 content
-~~~
-And developers can invent completely custom names like:
-~~~
-userFile
+```
+
+Developers may also create custom parameter names such as:
+
+```text
 profilePic
 resume
 invoice
 manual
-ebook
 thumbnail
 cover
 dataFile
 xml
 csv
 pdf
-~~~
-Or even something that gives no hint at all:
-
 ```
+
+Sometimes the parameter name doesn't even suggest that a file is being accessed.
+
+Example:
+
+```http
 GET /api/get?id=42
 ```
 
-Internally, the application might do something like:
+Internally, the application may translate that request into:
 
+```text
+id=42
+      ↓
+/var/data/files/42.json
 ```
-id=42  →  /var/data/files/42.json
-```
 
-Even though the parameter is called id, it still controls which file is read.
+Although the parameter is named `id`, it ultimately determines which file is loaded.
 
-Now, this ../ means to step up one level in the directory structure the three consecutive ../../../ sequences step up to the filesystem root
+---
 
-## Labs related with this topic in "Server-side Vulnerabilities"
+# Lab: File Path Traversal – Simple Case
 
-In the lab it says: -
+## Lab Objective
+
+The objective of this lab is to exploit a file path traversal vulnerability and retrieve the contents of the `/etc/passwd` file.
+
+The lab description is shown below.
 
 ![Lab Overview](Images/LabOverview.png)
 
-According to the lab we have to click on a image see the request and then change it in the middle so it will lead to the /passwd directory.
+---
 
-I have opened the burpsuite and opened the intercept to capture the request after clicking on any image in the lab and the request was recieved is: -
+## Capturing the Request
 
-![Request Recieved](Images/Captured_Request.png)
+I launched **Burp Suite**, enabled **Intercept**, and clicked on one of the product images.
 
-And what changes i made to that file and what i recieved is.........
+The intercepted request looked like this:
 
-![Response of the exploit](Images/Response_Recieved.png)
+![Captured Request](Images/Captured_Request.png)
 
-But before changing the request or doing anything i sended the request to the repeater tab of the burpsuite. We can also see all the credentials that are in /passwd directory.
+To make testing easier, I sent the request to the **Repeater** tab.
+
+---
+
+## Exploiting the Vulnerability
+
+The original request contained the following parameter:
+
+```text
+filename=4.jpg
+```
+
+I modified it to:
+
+```text
+filename=../../../etc/passwd
+```
+
+and sent the request again.
+
+The server responded with the contents of the `/etc/passwd` file, confirming that the application failed to validate the supplied file path.
+
+The successful response is shown below.
+
+![Lab Response](Images/Response_Recieved.png)
+
+---
+
+# Key Takeaways
+
+- Path Traversal allows an attacker to access files outside the intended directory.
+- The vulnerability occurs when user input is used to construct file paths without proper validation.
+- The `../` sequence instructs the operating system to move one directory higher.
+- Sensitive files such as `/etc/passwd` are common targets on Linux systems.
+- Burp Suite Repeater is useful for modifying and replaying requests during testing.
+- Input validation and restricting file access to approved directories are essential to prevent this vulnerability.
