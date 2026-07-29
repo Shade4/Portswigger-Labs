@@ -119,4 +119,6 @@ Now, this ../ means to step up one level in the directory structure the three co
 
 ## Labs related with this topic in "Server-side Vulnerabilities"
 
-In the lab it says 
+In the lab it says: -
+
+![Lab Overview](Images/LabOverview.png)
