@@ -124,3 +124,13 @@ In the lab it says: -
 ![Lab Overview](Images/LabOverview.png)
 
 According to the lab we have to click on a image see the request and then change it in the middle so it will lead to the /passwd directory.
+
+I have opened the burpsuite and opened the intercept to capture the request after clicking on any image in the lab and the request was recieved is: -
+
+![Request Recieved](Images/Captured_Request.png)
+
+And what changes i made to that file and what i recieved is.........
+
+![Response of the exploit](Images/Response_Recieved.png)
+
+But before changing the request or doing anything i sended the request to the repeater tab of the burpsuite. We can also see all the credentials that are in /passwd directory.
