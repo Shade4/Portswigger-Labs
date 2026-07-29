@@ -114,3 +114,9 @@ id=42  →  /var/data/files/42.json
 ```
 
 Even though the parameter is called id, it still controls which file is read.
+
+Now, this ../ means to step up one level in the directory structure the three consecutive ../../../ sequences step up to the filesystem root
+
+## Labs related with this topic in "Server-side Vulnerabilities"
+
+In the lab it says 
