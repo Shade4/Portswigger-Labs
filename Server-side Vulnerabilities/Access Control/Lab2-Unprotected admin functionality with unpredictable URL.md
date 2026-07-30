@@ -58,11 +58,11 @@ In this lab, the application contains an unprotected admin panel hosted at an un
 
 First, open the browser's **Developer Tools** by pressing **F12**, then navigate to the **Sources** tab. Inspect the `index` file, where you'll find a JavaScript snippet containing the hidden admin panel URL.
 
-![Admin JavaScript](Images/admin_script.png)
+![Admin JavaScript](Images/2admin_script.png)
 
 Copy the admin panel URL and paste it into the browser's address bar to access the admin interface.
 
-![Admin Panel](Images/admin_panel.png)
+![Admin Panel](Images/2admin_panel.png)
 
 From the admin panel, locate the user **carlos** and click **Delete**. Once the user is deleted, the lab is successfully completed.
 
