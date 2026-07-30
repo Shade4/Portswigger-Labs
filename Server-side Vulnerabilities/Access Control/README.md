@@ -107,10 +107,6 @@ Understanding each stage individually makes it much easier to spot where a real-
 
 5. **Delete the user `carlos`** from the admin panel.
 
-### Result
-
-Lab solved — the admin panel was reachable and fully functional for an unauthenticated/unprivileged visitor, confirming a classic **unprotected functionality** vulnerability rather than a login or session flaw.
-
 ---
 
 ## Key Takeaway
