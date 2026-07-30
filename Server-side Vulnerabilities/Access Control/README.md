@@ -66,10 +66,6 @@ Application features or endpoints that are fully functional but have **no access
 
 This is "security through obscurity" failing: if an attacker discovers or guesses the URL/endpoint/parameter, nothing stops them from using it, regardless of role or authentication status.
 
-### Security by Obscurity
-
-Sensitive functionality is concealed by giving it a less predictable URL.
-
 ---
 
 ## Concept Chaining
