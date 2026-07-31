@@ -39,7 +39,7 @@ A typical attack follows these steps:
 3. The attacker uses the administrator's account to gain elevated privileges.
 4. Administrative functionality becomes available to the attacker.
 
-### Real World Example 🧙
+### Real World Example
 
 Imagine Hogwarts has magical student ID cards.
 
