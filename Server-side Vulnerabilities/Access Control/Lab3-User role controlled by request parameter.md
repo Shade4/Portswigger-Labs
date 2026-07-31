@@ -56,7 +56,7 @@ Anything stored in the browser belongs to the user. Users can edit cookies, hidd
 
 If the server relies on these values to make authorization decisions, an attacker can simply modify them and gain privileges they should never have.
 
-### Harry Potter Example 🧙
+### Real World Example 🧙
 
 Imagine Hogwarts uses magical badges to decide who can enter the **Headmaster's Office**.
 
