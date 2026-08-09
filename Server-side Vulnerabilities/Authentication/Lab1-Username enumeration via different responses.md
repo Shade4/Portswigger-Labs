@@ -26,6 +26,7 @@ If you're new to web security, read Part 1 first. If you already know the theory
 11. [Quick Revision](#11-quick-revision)
 
 **Part 2 — Hands-On Lab**
+
 12. [Tools of the Trade: Burp Suite Intruder](#12-tools-of-the-trade-burp-suite-intruder)
 13. [Lab Walkthrough: Username Enumeration via Different Responses](#13-lab-walkthrough-username-enumeration-via-different-responses)
 14. [Key Takeaways & Defensive Recommendations](#14-key-takeaways--defensive-recommendations)
