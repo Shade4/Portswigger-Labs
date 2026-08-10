@@ -64,10 +64,10 @@ If you find this repository useful or learn something from it, consider giving i
     <td>3</td>
     <td>Authentication</td>
     <td>
-      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab1-Username%20enumeration%20via%20different%20responses.md
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab1: Username%20enumeration%20via%20different%20responses.md
 ">Lab 1: Username Enumeration via different Responses</a>
     </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab2-2FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab2: 2FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
     </td>
   </tr>
   <tr>
