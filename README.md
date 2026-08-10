@@ -49,7 +49,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>2</td>
     <td>Access Control</td>
-    <td></td>
+    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab1-Unprotected%20admin%20functionality.md">Unprotected Admin Functionality</a></td>
   </tr>
   <tr>
     <td>3</td>
