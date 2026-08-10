@@ -27,3 +27,30 @@ The goal of this repository is to build a well-organized knowledge base while im
 ## ⭐ Support
 
 If you find this repository useful or learn something from it, consider giving it a **⭐ Star**. It helps others discover the project and motivates me to continue documenting my progress.
+
+---
+
+## Labs with Topics
+
+<table>
+  <tr>
+    <th colspan="2">Server-Side Vulnerabilities</th>
+  </tr>
+  <tr>
+    <th>Number</th>
+    <th>Topics</th>
+    <th>Labs</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Path Traversal</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Access Control</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Authentication</td>
+  </tr>
+</table>
