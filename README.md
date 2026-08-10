@@ -63,5 +63,6 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>3</td>
     <td>Authentication</td>
+    <td></td>
   </tr>
 </table>
