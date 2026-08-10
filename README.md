@@ -34,7 +34,7 @@ If you find this repository useful or learn something from it, consider giving i
 
 <table>
   <tr>
-    <th colspan="2">Server-Side Vulnerabilities</th>
+    <th colspan="3">Server-Side Vulnerabilities</th>
   </tr>
   <tr>
     <th>Number</th>
