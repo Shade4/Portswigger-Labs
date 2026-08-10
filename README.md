@@ -54,6 +54,10 @@ If you find this repository useful or learn something from it, consider giving i
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab2-Unprotected%20admin%20functionality%20with%20unpredictable%20URL.md">Lab 2: Unprotected Admin Functionality with Unpredictable URL</a>
 </br>
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab3-User%20role%20controlled%20by%20request%20parameter.md">Lab 3: User role controlled by Request Parameter</a>
+</br>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab4-User%20ID%20controlled%20by%20request%20parameter%2C%20with%20unpredictable%20user%20IDs.md">Lab 4: User ID Controlled by Request Parameter, with Unpredictable User IDs</a>
+</br>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab5-User%20ID%20controlled%20by%20request%20parameter%20with%20password%20disclosure.md">Lab 5: User ID Controlled by Request Parameter with Password Disclosure</a>
     </td>
   </tr>
   <tr>
