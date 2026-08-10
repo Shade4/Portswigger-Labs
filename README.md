@@ -44,16 +44,16 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>1</td>
     <td>Path Traversal</td>
-    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Path%20Traversal/README.md">File Path Traversal, Simple Case</a></td>
+    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Path%20Traversal/README.md">Lab 1: File Path Traversal, Simple Case</a></td>
   </tr>
   <tr>
     <td>2</td>
     <td>Access Control</td>
-    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab1-Unprotected%20admin%20functionality.md">Unprotected Admin Functionality</a>
+    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab1-Unprotected%20admin%20functionality.md">Lab 1: Unprotected Admin Functionality</a>
 </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab2-Unprotected%20admin%20functionality%20with%20unpredictable%20URL.md">Unprotected Admin Functionality with Unpredictable URL</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab2-Unprotected%20admin%20functionality%20with%20unpredictable%20URL.md">Lab 2: Unprotected Admin Functionality with Unpredictable URL</a>
 </br>
-    <a href=""></a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab3-User%20role%20controlled%20by%20request%20parameter.md">Lab 3: User role controlled by Request Parameter</a>
     </td>
   </tr>
   <tr>
