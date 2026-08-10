@@ -44,6 +44,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>1</td>
     <td>Path Traversal</td>
+    <td>[File Path Traversal, Simple Case](</td>
   </tr>
   <tr>
     <td>2</td>
