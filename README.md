@@ -70,4 +70,11 @@ If you find this repository useful or learn something from it, consider giving i
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab2-2FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
     </td>
   </tr>
+  <tr>
+    <td>4</td>
+    <td>Server-side Request Forgery (SSRF)</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
 </table>
