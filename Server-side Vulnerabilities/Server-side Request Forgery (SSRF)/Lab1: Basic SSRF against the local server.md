@@ -72,24 +72,24 @@ This lab has a stock-check feature that fetches data from an internal system —
 **1. Trigger the vulnerable request.**
 With Burp Suite's intercept turned on, I opened a random product, clicked into its details page, scrolled down, and hit **Check stock**.
 
-![check stock button](Images/1check_stock_button)
+![check stock button](Images/1check_stock_button.png)
 
 **2. Capture the request.**
 The intercepted request carries a `stockApi` parameter pointing at the internal stock API, something like:
 
-![stockAPI request](Images/1stockAPI_before_changing_request)
+![stockAPI request](Images/1stockAPI_before_changing_request.png)
 
 **3. Redirect the fetch to the local admin panel.**
 I replaced the `stockApi` value with `http://localhost/admin`:
 
-![stockAPI request after adding //localhost/admin](Images/1stockAPI_after_changing_request)
+![stockAPI request after adding //localhost/admin](Images/1stockAPI_after_changing_request.png)
 
 The reason this works ties straight back to the loopback trick above: the server does the fetching, not my browser. Once the `stockApi` value points at `localhost`, the request to `/admin` originates from the app server itself. The admin panel doesn't ask for credentials because it was built on the assumption that only the server (or someone standing at it) could ever reach that address — it never anticipated being asked to fetch that address *on someone else's behalf*.
 
 **4. Forward the request and land on the admin panel.**
 Forwarding it through Burp returns the admin interface — no login required, because the request is (as far as the app can tell) local, trusted traffic:
 
-![admin access](Images/1admin_access)
+![admin access](Images/1admin_access.png)
 
 **5. Delete `carlos`.**
 From inside the now-accessible admin panel, See the username which in our case it's **carlos**. So change the request to this to delete and complete the lab.
