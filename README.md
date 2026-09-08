@@ -49,25 +49,25 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>2</td>
     <td>Access Control</td>
-    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab1-Unprotected%20admin%20functionality.md">Lab 1: Unprotected Admin Functionality</a>
+    <td><a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab1-Unprotected%20admin%20functionality.md">Lab 1: Unprotected Admin Functionality</a>
 </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab2-Unprotected%20admin%20functionality%20with%20unpredictable%20URL.md">Lab 2: Unprotected Admin Functionality with Unpredictable URL</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab2-Unprotected%20admin%20functionality%20with%20unpredictable%20URL.md">Lab 2: Unprotected Admin Functionality with Unpredictable URL</a>
 </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab3-User%20role%20controlled%20by%20request%20parameter.md">Lab 3: User role controlled by Request Parameter</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab3-User%20role%20controlled%20by%20request%20parameter.md">Lab 3: User role controlled by Request Parameter</a>
 </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab4-User%20ID%20controlled%20by%20request%20parameter%2C%20with%20unpredictable%20user%20IDs.md">Lab 4: User ID Controlled by Request Parameter, with Unpredictable User IDs</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab4-User%20ID%20controlled%20by%20request%20parameter%2C%20with%20unpredictable%20user%20IDs.md">Lab 4: User ID Controlled by Request Parameter, with Unpredictable User IDs</a>
 </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Access%20Control/Lab5-User%20ID%20controlled%20by%20request%20parameter%20with%20password%20disclosure.md">Lab 5: User ID Controlled by Request Parameter with Password Disclosure</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab5-User%20ID%20controlled%20by%20request%20parameter%20with%20password%20disclosure.md">Lab 5: User ID Controlled by Request Parameter with Password Disclosure</a>
     </td>
   </tr>
   <tr>
     <td>3</td>
     <td>Authentication</td>
     <td>
-      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab1: Username%20enumeration%20via%20different%20responses.md
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Authentication/Lab1_%20Username%20enumeration%20via%20different%20responses.md
 ">Lab 1: Username Enumeration via different Responses</a>
     </br>
-    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Server-side%20Vulnerabilities/Authentication/Lab2: 2FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Authentication/Lab2_%202FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
     </td>
   </tr>
   <tr>
