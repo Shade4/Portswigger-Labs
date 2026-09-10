@@ -75,6 +75,8 @@ If you find this repository useful or learn something from it, consider giving i
     <td>Server-side Request Forgery (SSRF)</td>
     <td>
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Server-side%20Request%20Forgery%20(SSRF)/Lab1_%20Basic%20SSRF%20against%20the%20local%20server.md">Lab 1: Basic SSRF Against The Local Server</a>
+    </br>
+  <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Server-side%20Request%20Forgery%20(SSRF)/Lab2_Basic%20SSRF%20against%20another%20back-end%20system.md">Lab 2: Basic SSRF against another back-end system</a>
     </td>
   </tr>
 </table>
