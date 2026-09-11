@@ -79,4 +79,11 @@ If you find this repository useful or learn something from it, consider giving i
   <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Server-side%20Request%20Forgery%20(SSRF)/Lab2_Basic%20SSRF%20against%20another%20back-end%20system.md">Lab 2: Basic SSRF against another back-end system</a>
     </td>
   </tr>
+  <tr>
+   <td>5</td>
+   <td>File upload vulnerabilities</td>
+   <td>
+     <a href="">Lab 1: Remote code execution via web shell upload</a>
+   </td> 
+  </tr>
 </table>
