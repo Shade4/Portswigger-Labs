@@ -84,6 +84,8 @@ If you find this repository useful or learn something from it, consider giving i
    <td>File upload vulnerabilities</td>
    <td>
      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/File%20upload%20vulnerabilities/Lab%201_Remote%20code%20execution%20via%20web%20shell%20upload.md">Lab 1: Remote code execution via web shell upload</a>
+   </br>
+  <a href="">Lab 2: Web shell upload via Content-Type restriction bypass</a>
    </td> 
   </tr>
 </table>
