@@ -100,7 +100,7 @@ Switch to the Repeater tab holding your original image request and edit the requ
 
 Before:
 ```
-GET /files/avatars/mr-robot-windows-11-wallpapers-v0-lgyvmbqdvu981.jpg HTTP/2
+GET /files/avatars/mr-robot-windows-11-wallpapers.jpg HTTP/2
 ```
 
 ![before](Images/1GET_request_before.png)
