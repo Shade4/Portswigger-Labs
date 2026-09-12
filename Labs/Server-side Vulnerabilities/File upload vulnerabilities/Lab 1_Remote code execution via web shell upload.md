@@ -67,7 +67,7 @@ With Burp Suite running as your intercepting proxy (so every request your browse
 **2. Upload an ordinary image first — deliberately, before trying anything malicious.**
 Pick any harmless image and upload it. This step isn't the attack itself; it's reconnaissance. It tells you two things you'll need later: that the upload *works at all*, and — more importantly — *where the server puts uploaded files and how it names the URL to fetch them back*. You'll see a confirmation message like:
 
-> The file `avatars/mr-robot-windows-11-wallpapers-v0-lgyvmbqdvu981.jpg` has been uploaded.
+> The file `avatars/mr-robot-wallpapers-v0-lgyvmbqdvu981.jpg` has been uploaded.
 > ← Back to My Account
 
 **3. Find the image's request in Burp's HTTP history.**
