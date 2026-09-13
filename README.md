@@ -88,4 +88,11 @@ If you find this repository useful or learn something from it, consider giving i
   <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/File%20upload%20vulnerabilities/Lab%202_Web%20shell%20upload%20via%20Content-Type%20restriction%20bypass.md">Lab 2: Web shell upload via Content-Type restriction bypass</a>
    </td> 
   </tr>
+  <tr>
+    <td>6</td>
+    <td>OS command injection</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
 </table>
