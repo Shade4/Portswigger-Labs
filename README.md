@@ -92,7 +92,7 @@ If you find this repository useful or learn something from it, consider giving i
     <td>6</td>
     <td>OS command injection</td>
     <td>
-      <a href=""></a>
+      <a href="">Lab 1: OS command injection, simple case</a>
     </td>
   </tr>
 </table>
