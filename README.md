@@ -96,7 +96,7 @@ If you find this repository useful or learn something from it, consider giving i
     </td>
   </tr>
   <tr>
-    <td>6</td>
+    <td>7</td>
     <td>SQL injection</td>
     <td>
       <a href=""></a>
