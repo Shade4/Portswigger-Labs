@@ -41,11 +41,14 @@ If you find this repository useful or learn something from it, consider giving i
     <th>Topics</th>
     <th>Labs</th>
   </tr>
+  <!-- The 1st content in the table starts from here-->
   <tr>
     <td>1</td>
     <td>Path Traversal</td>
     <td><a href="https://github.com/Shade4/Portswigger-Labs/tree/main/Labs/Server-side%20Vulnerabilities/Path%20Traversal">Lab 1: File Path Traversal, Simple Case</a></td>
   </tr>
+  <!-- The 1st content in the table ends here-->
+  <!-- The 2nd content in the table starts from here-->
   <tr>
     <td>2</td>
     <td>Access Control</td>
@@ -60,6 +63,8 @@ If you find this repository useful or learn something from it, consider giving i
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Access%20Control/Lab5-User%20ID%20controlled%20by%20request%20parameter%20with%20password%20disclosure.md">Lab 5: User ID Controlled by Request Parameter with Password Disclosure</a>
     </td>
   </tr>
+  <!-- The 2nd content in the table ends here-->
+  <!-- The 3rd content in the table starts from here-->
   <tr>
     <td>3</td>
     <td>Authentication</td>
@@ -70,6 +75,8 @@ If you find this repository useful or learn something from it, consider giving i
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Authentication/Lab2_%202FA%20simple%20bypass.md">Lab 2: 2FA Simple Bypass</a>
     </td>
   </tr>
+  <!-- The 3rd content in the table ends here-->
+  <!-- The 4th content in the table starts from here-->
   <tr>
     <td>4</td>
     <td>Server-side Request Forgery (SSRF)</td>
@@ -79,6 +86,8 @@ If you find this repository useful or learn something from it, consider giving i
   <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/Server-side%20Request%20Forgery%20(SSRF)/Lab2_Basic%20SSRF%20against%20another%20back-end%20system.md">Lab 2: Basic SSRF against another back-end system</a>
     </td>
   </tr>
+  <!-- The 4th content in the table ends here-->
+  <!-- The 5th content in the table starts from here-->
   <tr>
    <td>5</td>
    <td>File upload vulnerabilities</td>
@@ -88,6 +97,8 @@ If you find this repository useful or learn something from it, consider giving i
   <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/File%20upload%20vulnerabilities/Lab%202_Web%20shell%20upload%20via%20Content-Type%20restriction%20bypass.md">Lab 2: Web shell upload via Content-Type restriction bypass</a>
    </td> 
   </tr>
+  <!-- The 5th content in the table ends here-->
+  <!-- The 6th content in the table starts from here-->
   <tr>
     <td>6</td>
     <td>OS command injection</td>
@@ -95,12 +106,13 @@ If you find this repository useful or learn something from it, consider giving i
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/OS%20command%20injection/Lab1_OS%20command%20injection,%20simple%20case.md">Lab 1: OS command injection, simple case</a>
     </td>
   </tr>
+  <!-- The 6th content in the table ends here-->
   <!-- The 7th content in the table starts from here-->
   <tr>
     <td>7</td>
     <td>SQL injection</td>
     <td>
-      <a href="">Lab 1: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/SQL%20injection/Lab1_SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data.md">Lab 1: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data</a>
     </td>
   </tr>
   <!-- The 7th content in the table ends here-->
