@@ -95,11 +95,13 @@ If you find this repository useful or learn something from it, consider giving i
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/OS%20command%20injection/Lab1_OS%20command%20injection,%20simple%20case.md">Lab 1: OS command injection, simple case</a>
     </td>
   </tr>
+  <!-- The 7th content in the table starts from here-->
   <tr>
     <td>7</td>
     <td>SQL injection</td>
     <td>
-      <a href=""></a>
+      <a href="">Lab 1: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data</a>
     </td>
   </tr>
+  <!-- The 7th content in the table ends here-->
 </table>
