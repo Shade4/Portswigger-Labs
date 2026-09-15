@@ -95,4 +95,11 @@ If you find this repository useful or learn something from it, consider giving i
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/OS%20command%20injection/Lab1_OS%20command%20injection,%20simple%20case.md">Lab 1: OS command injection, simple case</a>
     </td>
   </tr>
+  <tr>
+    <td>6</td>
+    <td>SQL injection</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
 </table>
