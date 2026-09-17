@@ -32,6 +32,7 @@ If you find this repository useful or learn something from it, consider giving i
 
 ## Labs with Topics
 
+<!-- Server side vulnerabilities table starts from here -->
 <table>
   <tr>
     <th colspan="3">Server-Side Vulnerabilities</th>
@@ -119,3 +120,11 @@ If you find this repository useful or learn something from it, consider giving i
   </tr>
   <!-- The 7th content in the table ends here-->
 </table>
+<!-- Server side vulnerabilities table ends here -->
+<!-- Authentication vulnerabilites table starts here -->
+<table>
+  <tr>
+    <th colspan="2">Authentication vulnerabilities</th>
+  </tr>
+</table>
+<!-- Authentication vulnerabilities table ends here -->
