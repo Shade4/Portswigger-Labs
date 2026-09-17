@@ -113,6 +113,8 @@ If you find this repository useful or learn something from it, consider giving i
     <td>SQL injection</td>
     <td>
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/SQL%20injection/Lab1_SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data.md">Lab 1: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data</a>
+    </br>
+  <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Server-side%20Vulnerabilities/SQL%20injection/Lab2_SQL%20injection%20vulnerability%20allowing%20login%20bypass.md">Lab 2: SQL injection vulnerability allowing login bypass</a>
     </td>
   </tr>
   <!-- The 7th content in the table ends here-->
