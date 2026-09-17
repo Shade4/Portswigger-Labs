@@ -126,5 +126,9 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <th colspan="2">Authentication vulnerabilities</th>
   </tr>
+  <tr>
+    <th>Numbers</th>
+    <th>Labs</th>
+  </tr>
 </table>
 <!-- Authentication vulnerabilities table ends here -->
