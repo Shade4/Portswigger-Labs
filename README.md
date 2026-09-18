@@ -130,5 +130,11 @@ If you find this repository useful or learn something from it, consider giving i
     <th>Numbers</th>
     <th>Labs</th>
   </tr>
+  <tr>
+    <td>1</td>
+    <td>
+      <a href=''>Lab: Username enumeration via different responses</a>
+    </td>
+  </tr>
 </table>
 <!-- Authentication vulnerabilities table ends here -->
