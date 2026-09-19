@@ -130,11 +130,21 @@ If you find this repository useful or learn something from it, consider giving i
     <th>Numbers</th>
     <th>Labs</th>
   </tr>
+  <!-- First Lab starts here-->
   <tr>
     <td>1</td>
     <td>
       <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab1_Username%20enumeration%20via%20different%20responses.md">Lab: Username enumeration via different responses</a>
     </td>
   </tr>
+  <!-- First Lab ends here -->
+  <!-- Second Lab starts here -->
+  <tr>
+    <td>2</td>
+    <td>
+      <a href="">Lab: Username enumeration via subtly different responses</a>
+    </td>
+  </tr>
+  <!-- Second Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
