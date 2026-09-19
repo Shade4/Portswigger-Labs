@@ -142,7 +142,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>2</td>
     <td>
-      <a href="">Lab: Username enumeration via subtly different responses</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab2_Username%20enumeration%20via%20subtly%20different%20responses.md">Lab: Username enumeration via subtly different responses</a>
     </td>
   </tr>
   <!-- Second Lab ends here -->
