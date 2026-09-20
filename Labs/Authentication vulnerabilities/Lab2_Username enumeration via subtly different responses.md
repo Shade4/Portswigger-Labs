@@ -46,7 +46,7 @@ Open the lab and go to **My account**. Unauthenticated, this redirects you to `/
 
 At this stage you're just establishing what a "normal" request looks like — you need one real request to capture before you can start automating.
 
-![testing login](Images/2testing_login.png)
+![testing login](Images/Lab%202/2testing_login.png)
 
 The screenshot above shows the login page after typing `test` / `test` into both fields, purely to generate traffic Burp can capture. It doesn't matter that these credentials are wrong — the point of this request is only to see the *shape* of the traffic.
 
@@ -85,7 +85,7 @@ Click **Clear §** to remove all of them — you want full manual control. Then 
 username=§test§&password=test
 ```
 
-![username payload position](Images/2username_payload_position.png)
+![username payload position](Images/Lab%202/2username_payload_position.png)
 
 For **Attack type**, leave it on **Sniper**. Burp offers four attack types, and the difference matters:
 
@@ -122,7 +122,7 @@ To configure it:
 
 From now on, every response in the attack will have that exact byte range extracted and shown in its own column — letting you compare a couple of words per row instead of scrolling through full HTML pages 150 times.
 
-![adding payload position in password](Images/2payload_position_password.png)
+![adding payload position in password](Images/Lab%202/2payload_position_password.png)
 
 *(This screenshot is referenced again in the original notes when configuring the password stage — see Step 8 below.)*
 
@@ -142,7 +142,7 @@ Invalid username or password.
 Invalid username or password 
 ```
 
-![change in warning in username enumeration](Images/2change_in_warning_username.png)
+![change in warning in username enumeration](Images/Lab%202/2change_in_warning_username.png)
 
 No period — and if you look even closer, a trailing space where the period would have been. That row's username is your enumerated valid account.
 
@@ -169,7 +169,7 @@ username=<found_username>&password=§test§
 
 In the Payloads tab, **clear** the old username list and paste in the ~100 candidate passwords instead. Attack type stays **Sniper** — again, one field varying, one field fixed.
 
-![password found using brute force](Images/2passowrd_brute_force.png)
+![password found using brute force](Images/Lab%202/2passowrd_brute_force.png)
 
 Your Grep - Extract configuration from before carries over automatically, since it's tied to the exact byte-string `Invalid username or password.`, not to a specific field.
 
