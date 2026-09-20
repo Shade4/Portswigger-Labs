@@ -239,23 +239,23 @@ No single fix solves authentication security — real protection comes from laye
 
 Open the lab's login page, enter a throwaway value in both fields (e.g. `test` / `test`), and submit it **with Burp's Intercept turned on** so the raw POST request is captured before it reaches the server.
 
-![Login Images](Images/1login_testing.png)
+![Login Images](Images/Lab%201/1login_testing.png)
 
 This confirms the exact structure of the request — which parameter is `username`, which is `password`, and what the request looks like in full.
 
-![Intercepted Login credentials](Images/1burp_intercepted_login.png)
+![Intercepted Login credentials](Images/Lab%201/1burp_intercepted_login.png)
 
 ### Step 2 — Send to Intruder and mark the username as the payload position
 
 Right-click the intercepted request → *Send to Intruder*. In the Positions tab, clear the auto-suggested markers and place a single payload marker around the `username` value only — leave `password` as a fixed placeholder for now, since this phase is only trying to find out *which usernames exist*, not which passwords work.
 
-![Adding Payload Position](Images/1adding_payload_position_username.png)
+![Adding Payload Position](Images/Lab%201/1adding_payload_position_username.png)
 
 ### Step 3 — Load the username wordlist, attack type: Sniper
 
 With **Sniper** selected as the attack type (only one position is varying), go to the Payloads tab, keep "Simple list" as the payload type, and paste in the full candidate username list the lab provides.
 
-![Different names as Usernames for Payload Position](Images/1usernames_payloadposition.png)
+![Different names as Usernames for Payload Position](Images/Lab%201/1usernames_payloadposition.png)
 
 <details>
 <summary>Candidate usernames (click to expand)</summary>
@@ -281,7 +281,7 @@ Start the attack and let it work through every candidate. Burp shows the **respo
 
 In this run, that outlier was **`alerts`**.
 
-![Username enum successful](Images/1alerts_username_found.png)
+![Username enum successful](Images/Lab%201/1alerts_username_found.png)
 
 This is exactly the "subtly different response" idea from Section 10 in action: the developers likely intended both error paths to look identical to a human reading the page, but the raw HTTP response bodies differ by a small, measurable amount — invisible to a person eyeballing the page, but very visible when Burp lines up every response side-by-side.
 
@@ -291,11 +291,11 @@ This is exactly the "subtly different response" idea from Section 10 in action: 
 
 Back in Intruder, remove the payload marker from `username` and hard-code it to `alerts` (the confirmed valid account). Add a new payload marker around `password` instead. Attack type stays **Sniper** — same logic as before, just one moving part.
 
-![Password Payload Position](Images/1password_payload_position.png)
+![Password Payload Position](Images/Lab%201/1password_payload_position.png)
 
 Load the candidate password list into the Payloads tab:
 
-![Passwords lists](Images/1password_brute_list.png)
+![Passwords lists](Images/Lab%201/1password_brute_list.png)
 
 <details>
 <summary>Candidate passwords (click to expand)</summary>
@@ -320,7 +320,7 @@ matrix, mobilemail, mom, monitor, monitoring, montana, moon, moscow
 
 Same signal as before: nearly every attempt returns an identically-sized "incorrect password" response, except the one attempt where the password is actually correct — that response is longer or shorter (typically because it redirects to the account page instead of re-rendering the login form with an error).
 
-![Password Found](Images/1password_found.png)
+![Password Found](Images/Lab%201/1password_found.png)
 
 ### Step 7 — Log in
 
