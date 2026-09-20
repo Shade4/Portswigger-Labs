@@ -146,11 +146,13 @@ If you find this repository useful or learn something from it, consider giving i
     </td>
   </tr>
   <!-- 2nd Lab ends here -->
+  <!-- 3rd Lab start here -->
   <tr>
     <td>3</td>
     <td>
-      <a href="">Lab: Username enumeration via response timing</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab3_Username%20enumeration%20via%20response%20timing.md">Lab: Username enumeration via response timing</a>
     </td>
   </tr>
+  <!-- 3rd Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
