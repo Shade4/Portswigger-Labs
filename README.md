@@ -154,5 +154,11 @@ If you find this repository useful or learn something from it, consider giving i
     </td>
   </tr>
   <!-- 3rd Lab ends here -->
+  <!-- 4th Lab starts here -->
+  <td>4</td>
+  <td>
+    <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab4_Broken%20brute-force%20protection%2C%20IP%20block.md">Lab: Broken brute-force protection, IP block</a>
+  </td>
+  <!-- Lab 4th ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
