@@ -155,10 +155,20 @@ If you find this repository useful or learn something from it, consider giving i
   </tr>
   <!-- 3rd Lab ends here -->
   <!-- 4th Lab starts here -->
-  <td>4</td>
+  <tr>
+    <td>4</td>
   <td>
     <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab4_Broken%20brute-force%20protection%2C%20IP%20block.md">Lab: Broken brute-force protection, IP block</a>
-  </td>
+    </td>
+  </tr>
   <!-- Lab 4th ends here -->
+  <!-- 5th Lab starts here -->
+  <tr>
+    <td>5</td>
+    <td>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab5_Username%20enumeration%20via%20account%20lock.md">Lab: Username enumeration via account lock</a>
+    </td>
+  </tr>
+  <!-- 5th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
