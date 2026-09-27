@@ -170,5 +170,13 @@ If you find this repository useful or learn something from it, consider giving i
     </td>
   </tr>
   <!-- 5th Lab ends here -->
+  <!-- 6th Lab starts here -->
+  <tr>
+    <td>6</td>
+    <td>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab6_2FA%20simple%20bypass.md"></a>
+    </td>
+  </tr>
+  <!-- 6th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
