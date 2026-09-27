@@ -143,11 +143,11 @@ Log in normally with your own credentials, `wiener` / `peter`. As expected, the 
 
 Since this is a lab environment, PortSwigger gives you a built-in "Email client" button to view that inbox without needing a real mail server.
 
-![Email Client Button](Images/2email_client.png)
+![Email Client Button](Images/Lab%206/2email_client.png)
 
 Open it and grab the code:
 
-![2FA 4 digit code](Images/2fa_code.png)
+![2FA 4 digit code](Images/Lab%206/2fa_code.png)
 
 **Step 2 — Enter the code and inspect the resulting URL**
 
@@ -157,7 +157,7 @@ After submitting the correct code for your own account, look at the address bar.
 /my-account?id=wiener
 ```
 
-![URL My account and id wiener as username](Images/2URL_myaccount_wiener.png)
+![URL My account and id wiener as username](Images/Lab%206/2URL_myaccount_wiener.png)
 
 This is the important clue: the page you land on *after* successfully completing 2FA is just `/my-account`, and it happens to carry an `id` parameter identifying whose account to display. Nothing about that URL screams "and 2FA was verified" — it's a plain page load.
 
@@ -169,7 +169,7 @@ Log out, then log back in with the victim's credentials, `carlos` / `montoya`. T
 
 This is the actual bypass. Instead of entering any code, edit the URL directly: remove `/login2` and replace it with `/my-account`.
 
-![Bypassing 2FA](Images/2bypassing_2FA_with_my-account.png)
+![Bypassing 2FA](Images/Lab%206/2bypassing_2FA_with_my-account.png)
 
 The page loads — fully authenticated as Carlos, without ever touching his 4-digit code. I also appended `?id=carlos` out of habit (mirroring the pattern from Step 2), but it turned out not to be necessary — `/my-account` alone was enough. That's worth sitting with for a second: the `id` parameter isn't what's granting access here. The account page was always going to serve *whichever* session cookie you're currently holding; the parameter just controls what gets displayed, not who you're allowed to be. The actual vulnerability is entirely about `/my-account` never checking for a completed second factor — full stop.
 
