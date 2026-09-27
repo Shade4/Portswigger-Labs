@@ -182,7 +182,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>7</td>
     <td>
-      <a href=""></a>
+      <a href="">Lab: 2FA broken logic</a>
     </td>
   </tr>
   <!-- 7th Lab ends here -->
