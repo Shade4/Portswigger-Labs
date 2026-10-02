@@ -182,7 +182,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>7</td>
     <td>
-      <a href="">Lab: 2FA broken logic</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab7_2FA%20broken%20logic.md">Lab: 2FA broken logic</a>
     </td>
   </tr>
   <!-- 7th Lab ends here -->
