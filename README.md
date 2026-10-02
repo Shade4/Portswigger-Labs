@@ -196,27 +196,27 @@ If you find this repository useful or learn something from it, consider giving i
   <!-- 8th Lab ends here -->
   <!-- 9th Lab starts from here -->
   <tr>
-    
+   <td>9</td> 
   </tr>
   <!-- 9th Lab ends here -->
   <!-- 10th Lab starts from here -->
   <tr>
-    
+    <td>10</td>
   </tr>
   <!-- 10th Lab ends here -->
   <!-- 11th Lab starts from here -->
   <tr>
-    
+    <td>11</td>
   </tr>
   <!-- 11th Lab ends here -->
   <!-- 12th Lab starts from here -->
   <tr>
-    
+    <td>12</td>
   </tr>
   <!-- 12th Lab ends here -->
   <!-- 13th Lab starts from here -->
   <tr>
-    
+    <td>13</td>
   </tr>
   <!-- 13th Lab ends here -->
 </table>
