@@ -186,5 +186,13 @@ If you find this repository useful or learn something from it, consider giving i
     </td>
   </tr>
   <!-- 7th Lab ends here -->
+  <!-- 8th Lab starts from here -->
+  <tr>
+    <td>8</td>
+    <td>
+      <a href=''>Lab: Brute-forcing a stay-logged-in cookie</a>
+    </td>
+  </tr>
+  <!-- 8th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
