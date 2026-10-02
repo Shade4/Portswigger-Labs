@@ -195,29 +195,29 @@ If you find this repository useful or learn something from it, consider giving i
   </tr>
   <!-- 8th Lab ends here -->
   <!-- 9th Lab starts from here -->
-  <td>
+  <tr>
     
-  </td>
+  </tr>
   <!-- 9th Lab ends here -->
   <!-- 10th Lab starts from here -->
-  <td>
+  <tr>
     
-  </td>
+  </tr>
   <!-- 10th Lab ends here -->
   <!-- 11th Lab starts from here -->
-  <td>
+  <tr>
     
-  </td>
+  </tr>
   <!-- 11th Lab ends here -->
   <!-- 12th Lab starts from here -->
-  <td>
+  <tr>
     
-  </td>
+  </tr>
   <!-- 12th Lab ends here -->
   <!-- 13th Lab starts from here -->
-  <td>
+  <tr>
     
-  </td>
+  </tr>
   <!-- 13th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
