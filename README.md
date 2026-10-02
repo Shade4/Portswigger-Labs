@@ -190,7 +190,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>8</td>
     <td>
-      <a href=''>Lab: Brute-forcing a stay-logged-in cookie</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab8_Brute-forcing%20a%20stay-logged-in%20cookie.md">Lab: Brute-forcing a stay-logged-in cookie</a>
     </td>
   </tr>
   <!-- 8th Lab ends here -->
