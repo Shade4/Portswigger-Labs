@@ -271,3 +271,78 @@ If you find this repository useful or learn something from it, consider giving i
   <!-- 2nd Lab ends here -->
 </table>
 <!-- Essential Skills table ends here -->
+<!-- SQL Injection table starts from here -->
+<table>
+  <tr>
+    <th colspan="2">SQL Injection</th>
+  </tr>
+  <tr>
+    <th>Numbers</th>
+    <th>Labs</th>
+  </tr>
+  <!-- 1st lab starts from here -->
+  <tr>
+    <td>1</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 1st lab ends here -->
+  <!-- 2nd lab starts from here -->
+  <tr>
+    <td>2</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 2nd lab ends here -->
+  <!-- 3rd lab starts from here -->
+  <tr>
+    <td>3</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 3rd lab ends here -->
+  <!-- 4th lab starts from here -->
+  <tr>
+    <td>4</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 4th lab ends here -->
+  <!-- 5th lab starts from here -->
+  <tr>
+    <td>5</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 5th lab ends here -->
+  <!-- 6th lab starts from here -->
+  <tr>
+    <td>6</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 6th lab ends here -->
+  <!-- 7th lab starts from here -->
+  <tr>
+    <td>7</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 7th lab ends here -->
+  <!-- 8th lab starts from here -->
+  <<tr>
+    <td>8</td>
+    <td>
+      <a href=""></a>
+    </td>
+  </tr>
+  <!-- 8th lab ends here -->
+</table>
+<!-- SQL Injection table ends here -->
