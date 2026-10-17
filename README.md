@@ -219,5 +219,10 @@ If you find this repository useful or learn something from it, consider giving i
     <td>13</td>
   </tr>
   <!-- 13th Lab ends here -->
+  <!-- 14th Lab starts from here -->
+  <tr>
+    <td>14</td>
+  </tr>
+  <!-- 14th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
