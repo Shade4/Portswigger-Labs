@@ -273,76 +273,112 @@ If you find this repository useful or learn something from it, consider giving i
 <!-- Essential Skills table ends here -->
 <!-- SQL Injection table starts from here -->
 <table>
-  <tr>
-    <th colspan="2">SQL Injection</th>
-  </tr>
-  <tr>
-    <th>Numbers</th>
-    <th>Labs</th>
-  </tr>
-  <!-- 1st lab starts from here -->
-  <tr>
-    <td>1</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 1st lab ends here -->
-  <!-- 2nd lab starts from here -->
-  <tr>
-    <td>2</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 2nd lab ends here -->
-  <!-- 3rd lab starts from here -->
-  <tr>
-    <td>3</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 3rd lab ends here -->
-  <!-- 4th lab starts from here -->
-  <tr>
-    <td>4</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 4th lab ends here -->
-  <!-- 5th lab starts from here -->
-  <tr>
-    <td>5</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 5th lab ends here -->
-  <!-- 6th lab starts from here -->
-  <tr>
-    <td>6</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 6th lab ends here -->
-  <!-- 7th lab starts from here -->
-  <tr>
-    <td>7</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 7th lab ends here -->
-  <!-- 8th lab starts from here -->
-  <<tr>
-    <td>8</td>
-    <td>
-      <a href=""></a>
-    </td>
-  </tr>
-  <!-- 8th lab ends here -->
+  <thead>
+    <tr>
+      <th colspan="2">SQL Injection</th>
+    </tr>
+    <tr>
+      <th scope="col">Numbers</th>
+      <th scope="col">Labs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- 1st lab starts from here -->
+    <tr>
+      <td>1</td>
+      <td>
+        <a href=""></a>
+      </td>
+    </tr>
+    <!-- 1st lab ends here -->
+    <!-- 2nd lab starts from here -->
+    <tr>
+      <td>2</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 2nd lab ends here -->
+    <!-- 3rd lab starts from here -->
+    <tr>
+      <td>3</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 3rd lab ends here -->
+    <!-- 4th lab starts from here -->
+    <tr>
+      <td>4</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 4th lab ends here -->
+    <!-- 5th lab starts from here -->
+    <tr>
+      <td>5</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 5th lab ends here -->
+    <!-- 6th lab starts from here -->
+    <tr>
+      <td>6</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 6th lab ends here -->
+    <!-- 7th lab starts from here -->
+    <tr>
+      <td>7</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 7th lab ends here -->
+    <!-- 8th lab starts from here -->
+    <tr>
+      <td>8</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 8th lab ends here -->
+    <!-- 9th lab starts from here -->
+    <tr>
+      <td>9</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 9th lab ends here -->
+    <!-- 10th lab starts from here -->
+    <tr>
+      <td>10</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 10th lab ends here -->
+    <!-- 11th lab starts from here -->
+    <tr>
+      <td>11</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 11th lab ends here -->
+    <!-- 12th lab starts from here -->
+    <tr>
+      <td>12</td>
+      <td>
+        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+      </td>
+    </tr>
+    <!-- 12th lab ends here -->
+  </tbody>
 </table>
 <!-- SQL Injection table ends here -->
