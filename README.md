@@ -226,3 +226,24 @@ If you find this repository useful or learn something from it, consider giving i
   <!-- 14th Lab ends here -->
 </table>
 <!-- Authentication vulnerabilities table ends here -->
+<!-- Essential Skills table starts from here -->
+<table>
+  <tr>
+    <th colspan="2">Essential Skills</th>
+  </tr>
+  <tr>
+    <th>Numbers</th>
+    <th>Labs</th>
+  </tr>
+  <!-- 1st Lab starts from here -->
+  <tr>
+    <td>1</td>
+  </tr>
+  <!-- 1st Lab ends here -->
+  <!-- 2nd Lab starts from here -->
+  <tr>
+    <td>2</td>
+  </tr>
+  <!-- 2nd Lab ends here -->
+</table>
+<!-- Essential Skills table ends here -->
