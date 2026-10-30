@@ -198,7 +198,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
    <td>9</td>
     <td>
-      <a href=""></a>
+      <a href="">Lab: Offline password cracking</a>
     </td>
   </tr>
   <!-- 9th Lab ends here -->
