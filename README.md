@@ -206,7 +206,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>10</td>
     <td>
-      <a href="">Lab: Password reset broken logic</a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab10_Password%20reset%20broken%20logic.md">Lab: Password reset broken logic</a>
     </td>
   </tr>
   <!-- 10th Lab ends here -->
