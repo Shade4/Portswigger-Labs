@@ -206,7 +206,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>10</td>
     <td>
-      <a href=""></a>
+      <a href="">Lab: Password reset broken logic</a>
     </td>
   </tr>
   <!-- 10th Lab ends here -->
