@@ -214,7 +214,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>11</td>
     <td>
-      <a href=""></a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab11_Password%20reset%20poisoning%20via%20middleware.md">Lab: Password reset poisoning via middleware</a>
     </td>
   </tr>
   <!-- 11th Lab ends here -->
@@ -295,7 +295,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>2</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 2nd lab ends here -->
@@ -303,7 +303,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>3</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 3rd lab ends here -->
@@ -311,7 +311,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>4</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 4th lab ends here -->
@@ -319,7 +319,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>5</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 5th lab ends here -->
@@ -327,7 +327,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>6</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 6th lab ends here -->
@@ -335,7 +335,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>7</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 7th lab ends here -->
@@ -343,7 +343,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>8</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 8th lab ends here -->
@@ -351,7 +351,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>9</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 9th lab ends here -->
@@ -359,7 +359,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>10</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 10th lab ends here -->
@@ -367,7 +367,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>11</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 11th lab ends here -->
@@ -375,7 +375,7 @@ If you find this repository useful or learn something from it, consider giving i
     <tr>
       <td>12</td>
       <td>
-        <a href="#" target="_blank" rel="noopener noreferrer"></a>
+        <a href="#"></a>
       </td>
     </tr>
     <!-- 12th lab ends here -->
