@@ -90,11 +90,13 @@ An older version of **Piwik** (now known as Matomo, the open-source web analytic
 
    ![before changing URL](Images/Lab%2011/before_chaning_link_to_forward_carlos_pass_reset.png)
 
-7. **Set a new password.** Loading that URL drops you straight on Carlos's "set new password" page — the backend only checks whether the token is valid for *some* account, not whether you're the person it was issued to, so it can't distinguish this from Carlos legitimately following his own link.
+   ![after changing URL](Images/Lab%2011/after_chaning_link_to_forward_carlos_pass_reset.png)
+
+8. **Set a new password.** Loading that URL drops you straight on Carlos's "set new password" page — the backend only checks whether the token is valid for *some* account, not whether you're the person it was issued to, so it can't distinguish this from Carlos legitimately following his own link.
 
    ![new pass carlos](Images/Lab%2011/new_pass_enter_screen.png)
 
-8. **Log in as `carlos`** with the password you just set. Lab solved.
+9. **Log in as `carlos`** with the password you just set. Lab solved.
 
 ## Why This Vulnerability Exists
 
