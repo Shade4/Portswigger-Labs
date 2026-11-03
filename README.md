@@ -222,7 +222,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>12</td>
     <td>
-      <a href=""></a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab12_Password%20brute-force%20via%20password%20change.md">Lab: Password brute-force via password change</a>
     </td>
   </tr>
   <!-- 12th Lab ends here -->
