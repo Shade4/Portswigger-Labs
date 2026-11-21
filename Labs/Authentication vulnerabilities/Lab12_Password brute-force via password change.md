@@ -87,13 +87,13 @@ The two weaknesses from the explanation above — a **client-controlled identity
 
 Log in as `wiener` with the password `peter`. You need an authenticated session before the password-change form is even reachable, and you want to see the feature behave normally as a legitimate user before trying to abuse it.
 
-![Logging in with the given credentials](screenshots/01-login-with-given-credentials.png)
+![Logging in with the given credentials](Images/Lab%2012/login_with_given_credentials.png)
 
 ### Step 2 — Open "My account" and experiment with the password-change form, with Burp running
 
 Go to **My account**. Below the email field is the password-change form: **Current password**, **New password**, **Confirm new password**, **Change password**.
 
-![The My account page with the password-change form](screenshots/02-access-password-change-functionality.png)
+![The My account page with the password-change form](Images/Lab%2012/access_the_password_change_functionality_and_enperiment_with_it.png)
 
 With Burp's proxy capturing traffic, submit the form once with any values and look at the raw request. The form visually shows only three fields, but the POST body actually carries a fourth parameter:
 
@@ -126,7 +126,7 @@ The important detail is that **step 2 runs before step 3**. Seeing `"New passwor
 
 In the form, submit your real current password along with two different values for the new password (so the request is guaranteed to stop at step 3, not step 4), capture it in Burp, and send it to Intruder.
 
-![Captured request showing the hidden username parameter](screenshots/03-captured-request-hidden-username-field.png)
+![Captured request showing the hidden username parameter](Images/Lab%2012/captured_request_of_change_password_functionality_and_send_it_to_the_intruder.png)
 
 This is the same request from Step 2, now sitting in Intruder — body parameters and all, including `username`, right there in plain text and fully editable. Manually resending guesses one at a time would work in principle but is far too slow for a real wordlist; Intruder automates "send this same request repeatedly, changing one value, and record every response" so hundreds of guesses can be tried in seconds.
 
@@ -138,7 +138,7 @@ On the **Positions** tab:
 - Clear Burp's auto-selected positions, then highlight only the `current-password` value and mark it as a payload position (`§...§`).
 - Leave `new-password-1` and `new-password-2` as two fixed, different literal values — they must never match, so the actual password change never fires.
 
-![Intruder payload position and password list configuration](screenshots/04-intruder-payload-configuration.png)
+![Intruder payload position and password list configuration](Images/Lab%2012/payload_configurations.png)
 
 This is the pivot from "testing my own account" to "attacking Carlos's." Because the server trusts the `username` field instead of deriving identity from the session cookie, every request Intruder now fires is really asking the server: *"Does this guess match Carlos's current password?"* — and the server will dutifully answer, even though the attacker was never authenticated as Carlos.
 
@@ -156,7 +156,7 @@ In a real assessment this would be a proper wordlist (e.g. `rockyou.txt`); for t
 
 Open **Settings → Grep - Extract**, select the warning text in a sample response (e.g. `Current password is incorrect`), and let Burp define the start/end markers around it. This adds a new column to the results grid that shows, for *every* request, exactly what message came back at that spot in the page.
 
-![Configuring Grep - Extract on the warning message](screenshots/05-grep-extract-configuration.png)
+![Configuring Grep - Extract on the warning message](Images/Lab%2012/grep_extract_use.png)
 
 A plain Grep - Match rule only gives you a yes/no flag for one fixed string. Grep - Extract instead prints the *actual* message text for every row in its own column — so both `"Current password is incorrect"` and the rarer `"New passwords do not match"` show up side by side without needing two separate rules, and the one row that reads differently from all the rest jumps out immediately. Click **Start attack**.
 
@@ -164,7 +164,7 @@ A plain Grep - Match rule only gives you a yes/no flag for one fixed string. Gre
 
 When the attack finishes, scan the new results column. Every row shows the same generic `"Current password is incorrect"` — except one, which shows `"New passwords do not match"`. That payload value is Carlos's real current password.
 
-![Attack results — one response differs from all the rest](screenshots/06-attack-results-password-found.png)
+![Attack results — one response differs from all the rest](Images/Lab%2012/got_the_password_from_brute_force_login_with_it_to_solve_the_lab.png)
 
 In this run, payload `159753` on row 72 is the outlier: its response is 4 bytes shorter and arrived carrying the other message. That's the response oracle from Step 3 paying off — the server only ever reaches the "do the new passwords match" check (and therefore only ever produces that message) for the one guess that got past the current-password check first.
 
