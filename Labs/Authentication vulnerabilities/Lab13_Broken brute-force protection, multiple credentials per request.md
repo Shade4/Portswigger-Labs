@@ -204,6 +204,22 @@ The takeaway is the same whether the transport is a hand-crafted JSON array (thi
 - **Exploit:** sending every candidate password as one JSON array in a single `POST /login` request tests the entire wordlist server-side while request-counting brute-force protection only ever sees one request.
 - **Fix:** validate that security-sensitive fields are exactly the scalar type expected, and make brute-force protections count credential attempts, not requests.
 
+## 🔁 Alternate Solve: Burp Intruder (Sniper Attack)
+
+The array trick above is the technique the lab is actually testing, but the same password list also cracks the account with a conventional **Burp Intruder Sniper attack** — sending the candidate passwords one request at a time instead of bundling them into a single array:
+
+1. Send the captured `POST /login` request (with `username` set to `carlos`) to **Intruder**.
+2. Clear the default payload markers, then mark only the `password` value as the single payload position:
+   ```json
+   {"username":"carlos","password":"§testp§"}
+   ```
+3. Attack type: **Sniper** (one payload position, one list of values).
+4. Under **Payloads**, set the payload type to *Simple list* and paste in the full candidate password list, one per line.
+5. Run the attack. Sort the results by the **Status** column — 96 requests return the normal failed-login status, and exactly one returns the `302 Found` that signals a successful login.
+6. Take that one correct password and log in through the normal login form as `carlos` to reach `/my-account`.
+
+This works here because the list of 97 candidates stays under whatever volume this particular instance's protection actually blocks at — so a plain one-guess-per-request Sniper attack never trips it. That's worth noting precisely *because* it's the exception, not the rule: in a lab built around IP-blocking or account-lockout (see the "Broken brute-force protection, IP block" writeup), the same Sniper attack would get cut off long before reaching the correct password, and the array/batching technique above would be the only way through. This lab's real lesson is still the type-validation flaw — the Sniper attack succeeding too is a side effect of this specific instance's threshold, not proof the protection is sound.
+
 ## 📚 References
 
 - [PortSwigger — Lab: Broken brute-force protection, multiple credentials per request](https://portswigger.net/web-security/authentication/password-based/lab-broken-brute-force-protection-multiple-credentials-per-request)
