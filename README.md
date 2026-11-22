@@ -230,7 +230,7 @@ If you find this repository useful or learn something from it, consider giving i
   <tr>
     <td>13</td>
     <td>
-      <a href=""></a>
+      <a href="https://github.com/Shade4/Portswigger-Labs/blob/main/Labs/Authentication%20vulnerabilities/Lab13_Broken%20brute-force%20protection%2C%20multiple%20credentials%20per%20request.md">Lab: Broken brute-force protection, multiple credentials per request</a>
     </td>
   </tr>
   <!-- 13th Lab ends here -->
