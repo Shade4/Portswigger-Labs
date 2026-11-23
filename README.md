@@ -271,11 +271,11 @@ If you find this repository useful or learn something from it, consider giving i
   <!-- 2nd Lab ends here -->
 </table>
 <!-- Essential Skills table ends here -->
-<!-- SQL Injection table starts from here -->
+<!--Path Traversal table starts from here -->
 <table>
   <thead>
     <tr>
-      <th colspan="2">SQL Injection</th>
+      <th colspan="2">Path Traversal</th>
     </tr>
     <tr>
       <th scope="col">Numbers</th>
@@ -381,4 +381,4 @@ If you find this repository useful or learn something from it, consider giving i
     <!-- 12th lab ends here -->
   </tbody>
 </table>
-<!-- SQL Injection table ends here -->
+<!-- Path Traversal table ends here -->
