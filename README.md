@@ -333,6 +333,7 @@ If you find this repository useful or learn something from it, consider giving i
     <!-- 6th lab ends here -->
     <!-- Path Traversal table ends here -->
   </tbody>
+</table>
     <!-- SQL Injection table starts from here -->
     <tr>
       <td>7</td>
