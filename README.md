@@ -331,7 +331,9 @@ If you find this repository useful or learn something from it, consider giving i
       </td>
     </tr>
     <!-- 6th lab ends here -->
-    <!-- 7th lab starts from here -->
+    <!-- Path Traversal table ends here -->
+  </tbody>
+    <!-- SQL Injection table starts from here -->
     <tr>
       <td>7</td>
       <td>
@@ -381,4 +383,3 @@ If you find this repository useful or learn something from it, consider giving i
     <!-- 12th lab ends here -->
   </tbody>
 </table>
-<!-- Path Traversal table ends here -->
