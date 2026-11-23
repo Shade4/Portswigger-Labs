@@ -334,53 +334,65 @@ If you find this repository useful or learn something from it, consider giving i
     <!-- Path Traversal table ends here -->
   </tbody>
 </table>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">SQL Injection</th>
+    </tr>
+    <tr>
+      <th scope="col">Numbers</th>
+      <th scope="col">Labs</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- SQL Injection table starts from here -->
+    <!-- 1st lab starts from here -->
     <tr>
-      <td>7</td>
+      <td>1</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 7th lab ends here -->
-    <!-- 8th lab starts from here -->
+    <!-- 1st lab ends here -->
+    <!-- 2nd lab starts from here -->
     <tr>
-      <td>8</td>
+      <td>2</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 8th lab ends here -->
-    <!-- 9th lab starts from here -->
+    <!-- 2nd lab ends here -->
+    <!-- 3rd lab starts from here -->
     <tr>
-      <td>9</td>
+      <td>3</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 9th lab ends here -->
-    <!-- 10th lab starts from here -->
+    <!-- 3rd lab ends here -->
+    <!-- 4th lab starts from here -->
     <tr>
-      <td>10</td>
+      <td>4</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 10th lab ends here -->
-    <!-- 11th lab starts from here -->
+    <!-- 4th lab ends here -->
+    <!-- 5th lab starts from here -->
     <tr>
-      <td>11</td>
+      <td>5</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 11th lab ends here -->
-    <!-- 12th lab starts from here -->
+    <!-- 5th lab ends here -->
+    <!-- 6th lab starts from here -->
     <tr>
-      <td>12</td>
+      <td>6</td>
       <td>
         <a href="#"></a>
       </td>
     </tr>
-    <!-- 12th lab ends here -->
+    <!-- 6th lab ends here -->
   </tbody>
 </table>
